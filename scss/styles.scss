@@ -1,0 +1,18 @@
+@use '../node_modules/bootstrap/scss/bootstrap.scss';
+
+@font-face {
+    font-family: 'Cookies';
+    src: url('../fonts/cookies.ttf');
+}
+
+.title {
+    font-family: 'Cookies';
+}
+
+.result {
+    p {
+        font-family: 'Cookies';
+        font-size: 3rem;
+        word-wrap: break-word;
+    }
+}

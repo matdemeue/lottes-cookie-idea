@@ -4,7 +4,6 @@ import { useState } from 'react'
 export default function Home() {
   const [currentText, setCurrentText] = useState();
 
-  console.log(currentText);
   return (
     <div>
       <Head>

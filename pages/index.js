@@ -19,9 +19,9 @@ export default function Home() {
         </div>
         <div className="row">
           <div className="col-12 input">
-            <div class="mb-3">
-              <label for="textinput" class="form-label">Cookiefy your text by writing here:</label>
-              <textarea class="form-control" id="textinput" rows="3" onChange={(e) => setCurrentText(e.target.value)}></textarea>
+            <div className="mb-3">
+              <label htmlFor="textinput" className="form-label">Cookiefy your text by writing here:</label>
+              <textarea className="form-control" id="textinput" rows="3" onChange={(e) => setCurrentText(e.target.value)}></textarea>
             </div>
           </div>
           <div className="col-12 result">
